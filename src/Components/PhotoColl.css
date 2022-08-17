@@ -1,0 +1,29 @@
+.ImageColl{
+    margin-top: 5%;
+
+    width: 80vw;
+    margin-left: 10%;
+    border: 10px;
+    border-radius: 2%;
+    border-style: solid;
+    
+  }
+  
+  .CardContainer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 500px;
+  
+  }
+  
+  .CardColumn{
+    flex: 25%;
+    max-width: 25%;
+    padding: 4px 4px;
+  }

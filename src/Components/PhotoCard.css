@@ -1,0 +1,14 @@
+.PhotoCard{
+
+max-width: 100%;
+
+
+}
+
+.PhotoCard img {
+    position: relative;
+    width: 100%;
+}
+
+
+
