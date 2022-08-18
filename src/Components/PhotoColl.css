@@ -1,4 +1,4 @@
-.ImageColl{
+  .ImageColl{
     margin-top: 5%;
 
     width: 80vw;
@@ -6,6 +6,7 @@
     border: 10px;
     border-radius: 2%;
     border-style: solid;
+    border-color: #c3e1fa;
     
   }
   
@@ -26,4 +27,8 @@
     flex: 25%;
     max-width: 25%;
     padding: 4px 4px;
+  }
+
+  .LoadingSpin{
+    padding: 15%;
   }

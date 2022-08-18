@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './PhotoColl.css';
 import {useEffect, useState} from 'react'
 import PhotoCard from './PhotoCard';
+import { Spinner } from 'react-bootstrap';
 
 
 
@@ -20,6 +22,7 @@ function PhotoColl() {
 
   function renderAll(){
     if(data.length !== 1){
+      //render image
       console.log("rendering process")
       const renderedImg = [];
       data.map((item) => {
@@ -47,7 +50,10 @@ function PhotoColl() {
       return <div className="CardContainer">{columnContainers}</div>
       
     }else{
-      return <div></div>;
+      //spinner animation shown
+      return <div className="LoadingSpin">
+        <Spinner animation="border" role="status"  style={{width: "10rem", height: "10rem" }}/>
+        </div>;
     }
   }
   

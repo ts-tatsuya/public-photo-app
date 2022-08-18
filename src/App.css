@@ -37,6 +37,18 @@
     transform: rotate(360deg);
   }
 } */
-.App .PageTitle{
+/* .App .PageTitle{
   color: blue;
-}
+  padding-top: 5%;
+  padding-bottom: 10%;
+} */
+
+/* .App .PageTitle{
+  width: "50vw";
+  height: "15vh"; 
+  font-size: "8vh";
+  margin-top: "10vh"; 
+  margin-bottom: "10vh";
+  background-color: "white";
+  color: "blue";
+} */
