@@ -5,7 +5,8 @@ import PhotoCard from './PhotoCard';
 import { Spinner } from 'react-bootstrap';
 
 
-
+/*This component will display a box 
+ that contained all of the images from data*/
 
 function PhotoColl() {
 
@@ -22,7 +23,7 @@ function PhotoColl() {
 
   function renderAll(){
     if(data.length !== 1){
-      //render image
+      //render image when data is ready to use 
       console.log("rendering process")
       const renderedImg = [];
       data.map((item) => {
@@ -50,7 +51,7 @@ function PhotoColl() {
       return <div className="CardContainer">{columnContainers}</div>
       
     }else{
-      //spinner animation shown
+      //spinner animation shown when data is not ready
       return <div className="LoadingSpin">
         <Spinner animation="border" role="status"  style={{width: "10rem", height: "10rem" }}/>
         </div>;

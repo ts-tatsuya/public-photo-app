@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Image} from 'react-bootstrap'
 import './PhotoCard.css'
 
+//This component is for display each of the images
 
 function PhotoCard({imgUrl, postUrl}) {
   return (
